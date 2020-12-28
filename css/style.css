@@ -356,6 +356,7 @@ footer div {
     transition: 0.5s;
     padding-top: 60px;
 
+
 }
 
 .sidenav a {
@@ -378,6 +379,9 @@ footer div {
     margin-left: 50px;
 }
 
+.span_nav {
+    visibility: hidden;
+}
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -415,7 +419,11 @@ footer div {
         font-weight: 600;
         line-height: 47px;
         color: #404040;
-        margin-left: 0px;
+        margin-left: 00px;
+        align-items: flex-start;
+    }
 
+    .section_logo {
+        display: none
     }
 }
