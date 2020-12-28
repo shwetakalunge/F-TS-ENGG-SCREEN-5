@@ -360,13 +360,15 @@ footer div {
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 18px 18px 18px 32px;
     text-decoration: none;
     font-size: 15px;
     color: #818181;
     display: block;
     transition: 0.3s;
-    text-align: center
+    text-align: center;
+    color: #C7C7C7;
+    font-family: saira-regular;
 }
 
 .sidenav a:hover {}
@@ -381,6 +383,10 @@ footer div {
 
 .span_nav {
     visibility: hidden;
+}
+
+.section_logo1 {
+    text-align: center;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
