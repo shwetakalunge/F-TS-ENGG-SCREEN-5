@@ -324,26 +324,6 @@ footer div {
     opacity: 0.1;
 }
 
-/*-----------------------------------------------------------------------------------*/
-#panel,
-#flip {
-    padding: 5px;
-    text-align: center;
-    background-color: white;
-    /*  border: solid 1px #c3c3c3;*/
-    visibility: hidden;
-}
-
-#panel {
-    padding: 10px;
-    display: none;
-
-}
-
-#flip {
-    margin-bottom: 25px
-}
-
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .sidenav {
@@ -357,8 +337,6 @@ footer div {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-
-
 }
 
 .sidenav a {
@@ -426,5 +404,9 @@ footer div {
 
     .section_logo {
         display: none
+    }
+
+    td {
+        text-align: left
     }
 }
