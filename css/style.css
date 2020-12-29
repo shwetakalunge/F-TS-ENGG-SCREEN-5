@@ -215,7 +215,9 @@ td {
 
 }
 
-td:nth-child(1) {}
+td:nth-child(2) {
+    word-break: break-all
+}
 
 td:nth-child(5) {
     color: #008CDB;
@@ -425,8 +427,7 @@ footer div {
         font-weight: 600;
         line-height: 47px;
         color: #404040;
-        margin-left: 00px;
-        align-items: flex-start;
+
     }
 
     .section_logo {

@@ -18,69 +18,6 @@
     }
 }
 
-/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
-
-/*
-@media only screen and (max-width:767px) 
-{
-
-    .title {
-        text-align: center
-    }
-
-    .smart-table thead {
-        display: none;
-
-    }
-    .smart-table td{
-        float: center;
-    }
-    .smart-table tr,
-    .smart-table td {
-        display: block;
-        text-align: center;
-
-    }
-
-    .smart-table td {
-       padding-left: 50%;
-        position: relative;
-
-    }
-
-    .smart-table tr:nth-child(n-1) {
-        border: 5px solid #E5E5E5
-    }
-
-    .smart-table td::before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 55%;
-        content: attr(data-col-title);
-        padding: 10px 0px;
-    }
-
-    table {
-        width: 100%;
-        text-align: center;
-        margin: auto
-    }
-
-    .modal-content {
-        width: 746px;
-        height: 280px;
-        max-width: 250px
-
-    }
-
-    h1 {
-  
-    font-size: 26px;
-    line-height: 37px;
-    }
-}
-*/
 
 @media only screen and (max-width:767px) {
     .smart-table thead {
@@ -103,6 +40,8 @@
         /*  width: 15%;*/
         content: attr(data-col-title);
         padding: 00px 0px;
+        color: #cccc20;
+
     }
 
     .smart-table td {
@@ -131,5 +70,21 @@
         font-family: saira-medium;
         width: 165px;
         margin: auto
+    }
+
+    td:nth-child(2) {
+        word-break: break-all;
+
+    }
+
+    td:nth-child(8),
+    td:nth-child(7),
+    td:nth-child(5) {
+
+        text-decoration: none
+    }
+
+    td:nth-child(8) {
+        border-bottom: 2px solid #c3baba
     }
 }
